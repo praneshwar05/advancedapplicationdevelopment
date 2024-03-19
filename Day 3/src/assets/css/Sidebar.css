@@ -1,0 +1,22 @@
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: -300px; /* Initially hidden on the right */
+    width: 200px; /* Adjust width as needed */
+    height: 67%;
+    background-color: #f0a278; /* Change background color as needed */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    transition: right 0.3s ease; /* Transition for smooth opening and closing */
+    z-index: 9999;
+    margin-top: 109px;
+}
+
+.sidebar.open {
+    right: 0; /* Show sidebar by setting right to 0 */
+}
+
+.sidebar-content {
+    padding: 20px;
+}
+
+/* Add any other styles for the sidebar content as needed */
