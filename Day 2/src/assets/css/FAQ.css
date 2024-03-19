@@ -1,0 +1,44 @@
+/* Faq.css */
+
+.faq-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .faq-title {
+    text-align: center;
+    color: #333;
+  }
+  
+  .faq-item {
+    margin-bottom: 20px;
+  }
+  
+  .faq-question {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .faq-question h2 {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .arrow {
+    font-size: 24px;
+    transition: transform 0.3s;
+  }
+  
+  .arrow.active {
+    transform: rotate(180deg);
+  }
+  
+  .faq-answer {
+    color: #666;
+    font-size: 16px;
+  }
+  
